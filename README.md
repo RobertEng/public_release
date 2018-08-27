@@ -1,4 +1,6 @@
-# Setup
+# Interface Code for It's all Relative: Monocular 3D Human Pose Estimation from Weakly Supervised Data
+
+## Setup
 The GUI is run using python Flask backend with MongoDB as the database. Routing is done with nginx.
 
 
@@ -16,7 +18,7 @@ To run the server, run `mongod --dbpath ./data/db`.
 
 For the configuration of routes in `/etc/nginx/sites-enabled/default`, use the `default` file in the repo as an example.
 
-# Starting the Server
+## Starting the Server
 
 ### Local Server
 Run the server.
@@ -95,7 +97,7 @@ for document in cursor:
         print document['_hit_comment']
 ```
 
-# Amazon Mechanical Turk
+## Amazon Mechanical Turk
 
 
 ### Mturk Functions
