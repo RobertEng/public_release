@@ -127,3 +127,14 @@ mturk_depth_api.deleteAllHits()
 * `processAssignments()` to process and package the results. It generates a pickle file.
 * `getReviewableHITs()` gets all the reviewable hits (all assignments are complete).
 * `getReviewableAssignments()` gets all the completed assignments.
+
+### Reference
+If you find our work useful in your research please cite our paper:  
+```
+@inproceedings{relativeposeBMVC18,
+  title     = {It's all Relative: Monocular 3D Human Pose Estimation from Weakly Supervised Data},
+  author    = {Ronchi, Matteo Ruggero and Mac Aodha, Oisin and Eng, Robert and Perona, Pietro},
+  booktitle = {BMVC},
+  year = {2018}
+}
+```
